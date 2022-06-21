@@ -274,6 +274,7 @@ font-size: 50px;
     color:#fff ;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-size: cover;
 }
 
 .about-section h3 {
@@ -388,4 +389,52 @@ color: #fff;
 
     background-color: #2f0696;
     color:#fff !important ;
+}
+.contact-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url('../images/about.jpg');
+    color:#fff;
+    background-size: cover;
+    
+}
+
+.contact-section h2, .contact-section p{
+     text-align: center;
+}
+
+.contact-section form {
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 50px;
+}
+
+.contact-section form textarea, .contact-section form input, .contact-section form button {
+    width: 100%;
+    border: 0;
+    outline: none;
+    margin-bottom: 15px;
+    height: 40px;
+
+}
+
+.contact-section .contact-details {
+    text-align: left;
+}
+
+.contact-section .contact-details p {
+    text-align: left;
+  
+
+}
+ .contact-section form textarea{
+    height: 80px;
+ }
+
+ .contact-section form button{
+background-color: #1a7dfa;    
+color: #fff;
+text-transform: uppercase;
+font-size: bold ;
+
 }
