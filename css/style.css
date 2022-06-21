@@ -380,4 +380,12 @@ color: #fff;
 .school-section .school-inner .school-overlay .main-cta-btn{
     margin-top: 30px;
     display: inline-block;
+    clip-path: polygon(50% 0%, 100% 0, 100% 79%, 85% 100%, 0 100%, 0% 60%, 0 0);
+    border: none;
+}
+
+.school-section .school-inner .school-overlay .main-cta-btn:hover {
+
+    background-color: #2f0696;
+    color:#fff !important ;
 }
