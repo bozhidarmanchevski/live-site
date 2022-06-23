@@ -424,9 +424,42 @@ color: #fff;
 
 .contact-section .contact-details p {
     text-align: left;
-  
+}
+
+
+.contact-section .contact-details h3{
+
+    margin-bottom: 30px;
+}
+
+.contact-section .contact-details h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom:1px dotted #7c7586;
+    padding-bottom: 10px;
 
 }
+.contact-section .contact-details p a{
+    color:#fff
+}
+.contact-section .contact-details h4:before{
+content: "";
+display: inline-block;
+background-color: #315df7;
+width: 10px;
+height: 10px ;
+margin-right: 10px;
+position: relative;
+top:-2px;
+}
+
+.container .contact-container{
+    margin-top: 50px;
+}
+
+
+
  .contact-section form textarea{
     height: 80px;
  }
@@ -436,5 +469,71 @@ background-color: #1a7dfa;
 color: #fff;
 text-transform: uppercase;
 font-size: bold ;
+position: absolute;
+bottom: 0;
+width: 250px;
 
+ }
+ .contact-section form label{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7)
+ }
+
+ .pricing-section{
+    text-align: center;
+    padding-top:100px ;
+    padding-bottom: 100px;
+}
+
+.pricing-section .pricing-plan{
+background-color: #1c2021;
+color:#fff;
+padding: 25px;
+
+
+}
+
+.pricing-section .pricing-plan:hover{
+    background-color: #3c309d;
+    cursor: pointer;
+}
+
+.pricing-section .pricing-plan a{
+    display: inline-block;
+    
+}
+
+.pricing-section .pricing-plan ul{
+    list-style: none;
+
+}
+
+.pricing-section .pricing-plan ul li {
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 1px solid #fff;
+}
+
+
+.pricing-section h3{
+    text-align: center;
+    color: #4c007b;
+    text-transform: uppercase;
+    font-size: 18px;
+
+
+
+}
+
+.pricing-section h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #343434;
+    font-weight: bold;
+}
+.pricing-section h2 {
+    text-align: center;
+    color: #343434;
 }
