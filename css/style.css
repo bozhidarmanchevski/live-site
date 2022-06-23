@@ -490,6 +490,7 @@ width: 250px;
 background-color: #1c2021;
 color:#fff;
 padding: 25px;
+margin-top: 50px;
 
 
 }
@@ -537,3 +538,81 @@ border-bottom: 1px solid #fff;
     text-align: center;
     color: #343434;
 }
+
+.pricing-section .pricing-plan .price {
+position: relative;
+border-top: 3px dotted #fff;
+border-bottom: 3px dotted #fff;
+margin-bottom: 20px;
+
+}
+
+.pricing-section .pricing-plan .price .main-num{
+    font-size: 60px;
+    font-style: italic;
+}
+
+
+.pricing-section .pricing-plan .price .sec-num{
+
+    position: relative ;
+    top: -30px;
+}
+
+.pricing-section .pricing-plan .price .month{
+
+position: relative ;
+left: -25px;
+}
+
+.profit-section{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("../images/profit.jpg");
+    background-size: cover;
+    text-align: center;
+    color:#f9f9f9
+   
+}
+
+.profit-section h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+
+
+}
+
+.profit-section p {
+    font-size: 20px;
+
+
+}
+.profit-section a {
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    padding:15px;
+    text-decoration: none;
+    display:inline-block;
+    margin-top: 30px;
+
+
+
+}
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer h4:before {
+    content: "";
+    display: inline-block;
+    background-color: #315df7;
+    width: 10px;
+    height: 10px ;
+    margin-right: 10px;
+    position: relative;
+    top:-2px;
+    }
+    
