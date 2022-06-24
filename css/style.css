@@ -257,6 +257,9 @@ font-size: 50px;
 
 }
 
+
+
+
 .customers-say-section .testimonials .testimonial-inner .testimonial-content :before {
   content:"";  
   display: block;
@@ -600,19 +603,73 @@ left: -25px;
 
 
 }
-.footer{
+footer {
     padding-top: 100px;
     padding-bottom: 100px;
+
 }
 
-.footer h4:before {
+ footer h4 {
+    border-bottom: 1px dotted grey;
+    text-transform: uppercase;
+    color:#343434;
+
+}
+
+footer ul{
+    list-style: none;
+  
+}
+
+ footer h4:before {
     content: "";
     display: inline-block;
     background-color: #315df7;
     width: 10px;
-    height: 10px ;
+    height: 10px;
     margin-right: 10px;
     position: relative;
-    top:-2px;
-    }
+    top: -2px;
+}
     
+footer ul li a {
+    color: #818181;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+
+footer .icons a {
+    margin-right: 5px;
+    color: #818181;
+}
+
+
+footer a i {
+    font-size: 30px;
+}
+
+.after-footer {
+    background-color: #111618;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.after-footer ul{
+    list-style: none;
+}
+
+.after-footer ul li {
+
+display: inline-block;
+margin-left: 15px;
+color: #fff;
+text-transform: uppercase;
+}
+
+
+.after-footer p{
+    color: #fff;
+}
